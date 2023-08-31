@@ -28,8 +28,16 @@ body{
   font-weight: bold;
   border-radius: 10px;
 }
-.bgf:hover{
+.bgf:hover, .btn141:hover{
   background-color: #077c02;
+}
+.btn141{
+  width: 100%;
+  border: none;
+  background-color: #000059;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
 }
 .txt{
   color: #000059;
