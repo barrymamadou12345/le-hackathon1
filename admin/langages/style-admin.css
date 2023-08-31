@@ -14,7 +14,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 2px solid rgb(103, 9, 162);
+  border: 2px solid rgb(150, 11, 237);
 }
 .imofass img{
   width: 100%;
@@ -27,7 +27,7 @@
   margin-bottom: 0px;
   background-color: rgb(255, 255, 255);
   width: 95%;
-  border: 1px solid rgb(145, 5, 200);
+  border: 1px solid rgb(15, 5, 200);
   border-top-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
@@ -40,17 +40,16 @@
   margin-bottom: 0px;
   background-color: rgb(255, 255, 255);
   width: 65%;
-  border: 1px solid rgb(145, 5, 200);
+  border: 1px solid #000059;
   border-top-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 .btny9{
   width: 89%;
   height: 45px;
-  background-color:rgba(97, 15, 122, 0.751);
+  background-color:rgba(13, 10, 160, 0.751);
   border-radius: 15px;
   border: none;
-  box-shadow:5px 5px 6px 0px rgb(214, 27, 84);
 }
 .btny9:hover{
   background-color:rgb(12, 79, 84);
@@ -66,15 +65,14 @@
   border-radius: 15px;
   background-color: rgba(213, 207, 207, 0.991);
   border: none;
-  box-shadow:5px 5px 6px 0px rgb(214, 27, 84);
 }
 
 .inputo:focus{
-  border: 3px solid rgb(64, 11, 117);
+  border: 3px solid rgb(16, 30, 190);
   outline: none;
 }
 .inputo2:focus{
-  border: 3px solid rgb(64, 11, 117);
+  border: 3px solid rgb(28, 11, 158);
   outline: none;
 }
 .inputo2{
@@ -82,9 +80,8 @@
   padding-left: 15px;
   height: 45px;
   border-radius: 15px;
-  background-color: rgba(213, 207, 207, 0.991);
+  background-color: rgba(145, 138, 138, 0.991);
   border: none;
-  box-shadow:5px 5px 6px 0px rgb(214, 27, 84)
 }
 .tit{
   font-weight: bold;
@@ -110,13 +107,13 @@
 .posty1{
   font-size: 20px;
   font-weight: bold;
-  color: #000059;
+  color: #05058a;
 }
 .posty1:hover{
   padding-top: 2px;
   height: 40px;
   border-radius: 25px;
-  background-color: #690d83c4;
+  background-color: #040474c4;
   color: #fff;
   transition: all ease-in-out 0.7s;
 }
@@ -148,7 +145,7 @@
   align-items: center;
 }
 .navbar{
-  background-color:#000059;
+  background-color:#040480;
   display: flex;
   align-items: center;
 }
@@ -242,49 +239,6 @@
 *{
   font-size: 16px;
 }
-.navbar-nav .nav-link{
-  margin: 0px 30px;
-  font-size: 16px;
-  color: rgb(255, 255, 255);
-}
-.navbar-nav .nav-link:hover{
-  background-color:rgb(2, 120, 231);
-  color: #fff;
-  border-radius: 25px;
-  transition: all ease-in-out 0.4s;
-  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
-}
-.navbar-nav .mok3 .nav-link{
-  color: rgb(236, 28, 36);
-}
-.navbar-nav .mok3 .nav-link:hover{
-  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
-  background-color: rgb(2, 120, 231);
-  color:#fff;
-  border-radius: 25px;
-  transition: all ease-in-out 0.4s;
-}
-
-.btny2{
-  margin: 0px 30px;
-  width: 80px;
-  height: 40px;
-  background-color:rgb(2, 120, 231) ;
-  border-radius: 25px;
-  display: flex;justify-content: center;
-  align-items: center;
-  border: none;
-}
-.btny2:hover{
-  background-color:rgb(2, 120, 231);
-  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
-  transition: all ease-in-out 0.4s;
-}
-.btny2 a{
-  font-size: 14px;
-}
-
-
 
 
 /* ================= PANIER MODAL++++++++++++++++++ */
@@ -292,7 +246,7 @@
 .payo{
   font-weight: bold;
   font-size: 40px;
-  color: #4e0758;
+  color: #3b198c;
 }
 .nomop{
   border-bottom: 2px solid rgba(235, 7, 7, 0.267);
@@ -301,7 +255,7 @@
 .miby{
   width: 100%;
   height: 50px;
-  border: 1px solid #70239cb6;
+  border: 1px solid #2914a2b6;
   border-radius: 10px;
   padding-left: 30px;
 }
@@ -341,7 +295,7 @@
 .miby3{
   width: 100%;
   height: 50px;
-  border: 1px solid #70239cb6;
+  border: 1px solid #180db2b6;
   border-radius: 10px;
   padding-left: 30px;
 }
@@ -362,7 +316,7 @@
 .miby4{
   width: 100%;
   height: 50px;
-  border: 1px solid #70239cb6;
+  border: 1px solid #0e0ea4b6;
   border-radius: 10px;
   padding-left: 30px;
 }
@@ -384,7 +338,7 @@
 .miby14{
   width: 85%;
   height: 50px;
-  border: 1px solid #70239cb6;
+  border: 1px solid #43239cb6;
   border-radius: 10px;
   padding-left: 30px;
 }
