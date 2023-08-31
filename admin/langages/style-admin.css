@@ -1,0 +1,406 @@
+
+/*=========== section111 section ======*/
+
+
+.abi{
+  text-decoration: none;
+  color: #fff;
+}
+.abi:hover{
+  color: white;
+}
+
+.imofass{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(103, 9, 162);
+}
+.imofass img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.fassid11{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  width: 95%;
+  border: 1px solid rgb(145, 5, 200);
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.posty1{
+  cursor: pointer;
+}
+.fassid1{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  border: 1px solid rgb(145, 5, 200);
+  border-top-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.btny9{
+  width: 89%;
+  height: 45px;
+  background-color:rgba(97, 15, 122, 0.751);
+  border-radius: 15px;
+  border: none;
+  box-shadow:5px 5px 6px 0px rgb(214, 27, 84);
+}
+.btny9:hover{
+  background-color:rgb(12, 79, 84);
+  transition: all ease-in-out 0.5s;
+}
+.btny9{
+  font-size: 13px;
+}
+.inputo{
+  padding-left: 15px;
+  width: 89%;
+  height: 45px;
+  border-radius: 15px;
+  background-color: rgba(213, 207, 207, 0.991);
+  border: none;
+  box-shadow:5px 5px 6px 0px rgb(214, 27, 84);
+}
+
+.inputo:focus{
+  border: 3px solid rgb(64, 11, 117);
+  outline: none;
+}
+.inputo2:focus{
+  border: 3px solid rgb(64, 11, 117);
+  outline: none;
+}
+.inputo2{
+  width: 89%;
+  padding-left: 15px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: rgba(213, 207, 207, 0.991);
+  border: none;
+  box-shadow:5px 5px 6px 0px rgb(214, 27, 84)
+}
+.tit{
+  font-weight: bold;
+  font-size: 35px;
+  color: rgb(40, 14, 187);
+}
+.formo{
+  border-bottom: 2px solid rgba(232, 115, 115, 0.395);
+}
+.posty2{
+  font-size: 20px;
+  font-weight: 300;
+  color: #f32222;
+}
+.posty2:hover{
+  color: #0a07ac;
+  text-decoration: underline;
+}
+.posty{
+  font-size: 19px;
+  font-weight: 300;
+}
+.posty1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000059;
+}
+.posty1:hover{
+  padding-top: 2px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: #690d83c4;
+  color: #fff;
+  transition: all ease-in-out 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======== section numero 1 ======= */
+
+.container{
+  display: flex;
+  align-items: center;
+}
+.navbar{
+  background-color:#000059;
+  display: flex;
+  align-items: center;
+}
+.navo{
+  
+
+  margin-top: 65px;
+  width: 100%;
+  height: 35px;
+  border-radius: 25px;
+}
+.dropdown{
+  margin-top: 30px;
+  background-color:rgb(14, 21, 37);
+  height: 40px;
+  border-radius: 25px;
+}
+.nono{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+.dropdown-menu{
+  background-color: #4f0758b2;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+.dropdown-item{
+  color: #ffffff;
+  font-weight: bold;
+}
+.dropdown-item:hover{
+  color: #2bff63;
+  background-color: rgb(86, 10, 86);
+  border-radius: 25px;
+}
+.nono:hover{
+  color: rgb(0, 255, 34);
+}
+.navbar-brand{
+  width: 13%;
+}
+.moytu:hover .zoo {
+  display: inline-table;
+}
+.zoo {
+  display: none;
+}
+.dire{
+  display: none;
+}
+.fyb:hover .dire{
+  display: inline-table;
+}
+.fyb img{
+  width: 20px;
+  height: 20px;
+}
+.navbar-toggler{
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(253, 2, 2);
+}
+.bouton1{
+  gap: 8px;
+}
+.navbar-toggler:focus{
+  width: 50px;
+  height: 40px;
+  color: gray;
+}
+.bouton1 i{
+  font-size: 16px;
+  padding-top: 8px;
+}
+.bouton1 p{
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.moty{
+  margin-left: -40px;
+  z-index: 2;
+}
+.moty i{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color:rgb(96, 12, 108);
+}
+*{
+  font-size: 16px;
+}
+.navbar-nav .nav-link{
+  margin: 0px 30px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-link:hover{
+  background-color:rgb(2, 120, 231);
+  color: #fff;
+  border-radius: 25px;
+  transition: all ease-in-out 0.4s;
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+}
+.navbar-nav .mok3 .nav-link{
+  color: rgb(236, 28, 36);
+}
+.navbar-nav .mok3 .nav-link:hover{
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+  background-color: rgb(2, 120, 231);
+  color:#fff;
+  border-radius: 25px;
+  transition: all ease-in-out 0.4s;
+}
+
+.btny2{
+  margin: 0px 30px;
+  width: 80px;
+  height: 40px;
+  background-color:rgb(2, 120, 231) ;
+  border-radius: 25px;
+  display: flex;justify-content: center;
+  align-items: center;
+  border: none;
+}
+.btny2:hover{
+  background-color:rgb(2, 120, 231);
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+  transition: all ease-in-out 0.4s;
+}
+.btny2 a{
+  font-size: 14px;
+}
+
+
+
+
+/* ================= PANIER MODAL++++++++++++++++++ */
+
+.payo{
+  font-weight: bold;
+  font-size: 40px;
+  color: #4e0758;
+}
+.nomop{
+  border-bottom: 2px solid rgba(235, 7, 7, 0.267);
+}
+
+.miby{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby:focus{
+  outline: none;
+  border: 1px solid #f83f3f;
+  border-radius: 10px;
+}
+.miby::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+.ipko{
+  width: 60%;
+}
+.ecro p{
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #f83f3f;
+}
+.imapay{
+  width: 22%;
+  height: 100px;
+  border: 2px solid rgba(255, 0, 0, 0.549);
+  border-radius: 25px;
+}
+.imapay img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.ipko2{
+  width: 86%;
+}
+
+.miby3{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby3:focus{
+  outline: none;
+  border: 1px solid #1e26c5;
+  border-radius: 10px;
+}
+.miby3::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.ipko4{
+  width: 100%;
+}
+
+.miby4{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby4:focus{
+  outline: none;
+  border: 1px solid #f83f3f;
+  border-radius: 10px;
+}
+.miby4::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+.btnys{
+  width: 100%;
+}
+.posti{
+  width: 100%;
+}
+.miby14{
+  width: 85%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby14:focus{
+  outline: none;
+  border: 1px solid #0d0aae;
+  border-radius: 10px;
+}
+.miby14::placeholder{
+  font-weight: bold;
+} 
+
+
+
+
+
+
+
+

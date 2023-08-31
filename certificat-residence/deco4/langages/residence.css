@@ -1,0 +1,799 @@
+body{
+  width: 100%;
+  height: 100%;
+}
+/*======== section numero 1 ======= */
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+.logy img{
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+}
+
+.boyv{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar{
+  background-color:#000059;
+  display: flex;
+  align-items: center;
+}
+.navo{
+  margin-top: 65px;
+  width: 100%;
+  height: 35px;
+  border-radius: 25px;
+}
+.dropdown{
+  margin-top: 30px;
+  background-color:rgb(14, 21, 37);
+  height: 40px;
+  border-radius: 25px;
+}
+.nono{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+.dropdown-menu{
+  background-color: #4f0758b2;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
+.dropdown-item{
+  color: #ffffff;
+  font-weight: bold;
+}
+.dropdown-item:hover{
+  color: #2bff63;
+  background-color: rgb(86, 10, 86);
+  border-radius: 25px;
+}
+.nono:hover{
+  color: rgb(0, 255, 34);
+}
+.navbar-brand{
+  width: 10%;
+}
+.moytu:hover .zoo {
+  display: inline-table;
+}
+.zoo {
+  display: none;
+}
+.dire{
+  display: none;
+}
+.fyb:hover .dire{
+  display: inline-table;
+}
+.fyb img{
+  width: 20px;
+  height: 20px;
+}
+.navbar-toggler{
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid rgb(253, 2, 2);
+}
+.bouton1{
+  gap: 8px;
+}
+.navbar-toggler:focus{
+  width: 50px;
+  height: 40px;
+  color: gray;
+}
+.navbar-toggler:focus .navbar-nav{
+  height: auto;
+  background-color: #000059;
+}
+.bouton1 i{
+  font-size: 16px;
+  padding-top: 8px;
+}
+.bouton1 p{
+  margin-top: 7px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.moty{
+  margin-left: -40px;
+  z-index: 2;
+}
+.moty i{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  color:rgb(96, 12, 108);
+}
+*{
+  font-size: 16px;
+}
+.navbar-nav .nav-link{
+  margin: 0px 30px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-link:hover{
+  background-color:rgb(2, 120, 231);
+  color: #fff;
+  border-radius: 25px;
+  transition: all ease-in-out 0.4s;
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+}
+.navbar-nav .mok3 .nav-link{
+  color: rgb(236, 28, 36);
+}
+.navbar-nav .mok3 .nav-link:hover{
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+  background-color: rgb(2, 120, 231);
+  color:#fff;
+  border-radius: 25px;
+  transition: all ease-in-out 0.4s;
+}
+
+.btny2{
+  margin: 0px 30px;
+  width: 80px;
+  height: 40px;
+  background-color:rgb(2, 120, 231) ;
+  border-radius: 25px;
+  display: flex;justify-content: center;
+  align-items: center;
+  border: none;
+}
+.btny2:hover{
+  background-color:rgb(2, 120, 231);
+  box-shadow:0px 0px 20px 0px rgb(255, 162, 0);
+  transition: all ease-in-out 0.4s;
+}
+.btny2 a{
+  font-size: 14px;
+}
+/* ============== offcanvas debut======== */
+
+
+.offcanvas{
+  width: 320px;
+  height: 80%;
+  margin: 70px 0px 50px 0px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #000059;
+}
+.titohead p{
+  color: #4e0758;
+  font-size: 25px;
+}
+.offcanvas-body{
+  border-top: 2px solid rgba(128, 128, 128, 0.543);
+}
+.btn-close{
+  border: 1px solid #4e0758;
+}
+.btn-close:hover{
+  background-color: rgba(255, 0, 0, 0.647);
+}
+
+.texcanvas{
+  border-bottom: 2px solid rgba(128, 128, 128, 0.543);
+}
+/* ==============MON CODE offcanvas ======== */
+.menucanvas{
+  width: 90%;
+  margin: auto;
+}
+.menucanvas li{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.menucanvas li:hover{
+  background-color: rgb(2, 120, 231);
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.menucanvas li a{
+  font-size: 12px;
+  color: #fff;
+}
+.menucanvas li:hover a{
+  color: #fff;
+}
+.menucanvas li button{
+  border: none;
+  background-color: #00005900;
+}
+.debb{
+  margin-left: 10px;
+}
+.debb i{
+  font-size: 21px;
+  color: #fff;
+}
+/* ============== offcanvas fin======== */
+
+
+
+
+
+/* ===============se connecter debut======== */
+
+.imofass{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid rgb(103, 9, 162);
+}
+.fassid{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fassid1{
+  background-color: rgb(255, 255, 255);
+  width: 85%;
+  border-radius: 25px;
+}
+.btny9{
+  width: 89%;
+  height: 45px;
+  background-color:rgba(38, 34, 156, 0.767);
+  border-radius: 10px;
+  border: none;
+}
+.btny9:hover{
+  background-color:#000059;
+  transition: all ease-in-out 0.5s;
+}
+.btny9{
+  font-size: 13px;
+}
+.inputo{
+  padding-left: 15px;
+  width: 89%;
+  height: 45px;
+  border-radius: 15px;
+  border-bottom:2px solid #000059;
+  background-color: rgba(231, 231, 231, 0.991);
+  border-top: none;
+}
+
+.inputo:focus{
+  outline: none;
+}
+.inputo2:focus{
+  outline: none;
+}
+.inputo2{
+  width: 89%;
+  padding-left: 15px;
+  height: 45px;
+  border-radius: 15px;
+  border-bottom:2px solid #000059;
+  background-color: rgba(231, 231, 231, 0.991);
+  border-top: none;
+}
+.tit{
+  font-weight: bold;
+  font-size: 35px;
+  color: #000059;
+}
+.formo{
+  border-bottom: 2px solid rgba(232, 115, 115, 0.395);
+}
+.posty2{
+  font-size: 20px;
+  font-weight: 300;
+  color: #f32222;
+}
+.posty2:hover{
+  color: #000059;
+  text-decoration: underline;
+}
+.posty{
+  font-size: 19px;
+  font-weight: 300;
+}
+.posty1{
+  font-size: 20px;
+  font-weight: bold;
+  color: #000059;
+  cursor: pointer;
+}
+.posty1:hover{
+  padding-top: 2px;
+  height: 40px;
+  border-radius: 25px;
+  background-color:#000059;
+  color: #fff;
+  transition: all ease-in-out 0.6s;
+  cursor: pointer;
+}
+
+/* ===============media queries======== */
+
+@media screen and (max-width: 920px) {
+  .fassid1{
+    width: 60%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .fassid1{
+    width: 80%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .fassid1{
+    width: 95%;
+  }
+}
+
+/* ===============seconnecter fin======== */
+
+
+/*============ SECTION 1 DEBUT ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+/********************** SODA CSS debut****************************/
+
+.imagerv{
+  margin-top: -20px;
+  height: auto;
+  width: 100%;
+  background-color: #000059;
+  padding: 120px 20px;
+}
+.imagerv .imm1{
+  width: 55%;
+  height: 500px;
+}
+.imagerv .imm2{
+  width: 37%;
+  height: 485px;
+}
+.imm1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.imm2 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+.pixyz{
+  color: #000059;
+}
+.insay{
+  margin-top: 100px;
+  width: 100%;
+  height: 570px;
+  background-color:#000059;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ins{
+  width: 70%;
+  height: 510px;
+}
+.ins img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* acte naissnce */
+.numbers{
+  width: 80%;
+  margin-left: 70px;
+  border: 2px solid gray;
+} 
+.color{
+  background-color: #6f6fb29f;
+  height: 400px;
+}
+.fre{
+  width: 133px;
+  height: 29px;
+
+}
+
+
+
+.insay2{
+  margin: 100px 0px;
+  width: 100%;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ins2{
+  width: 85%;
+  height: 510px;
+}
+.ins2 img{
+  width: 100%;
+  height: 100%;
+}
+
+.jey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px auto;
+  width: 135px;
+  height: 37px;
+  padding-bottom: 4px;
+  padding-right: 5px;
+  
+  background-color: rgb(235, 240, 245);
+  border: 2px solid #000059;
+}
+
+
+
+
+/********************** SODA CSS fin****************************/
+
+#sect01{
+  margin-top: 60px;
+}
+.curso{
+  cursor: pointer;
+  color: red;
+  font-weight: 400;
+}
+
+.demando1{
+  width: 100%;
+  height: 5px;
+  border-top: 2px solid rgba(248, 37, 37, 0.504);
+  margin-top: 50px;
+  padding-top: 10px;
+}
+
+/*============ SECTION 1 FIN ========== */
+
+
+
+
+/*=========== footer section ======*/
+
+.footy{
+  background-color:#000059;
+}
+.logy{
+  width: 80%;
+}
+.conto ul li{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color:  rgb(65, 45, 245);
+}
+.conto ul li:hover{
+  background-color: rgba(248, 39, 43, 0.772);
+  transition: all ease-in-out 0.5s;
+}
+.conto ul li:hover i{
+  color: #fff;
+}
+.conto i{
+  color: #fff;
+  font-size: 23px;
+}
+.kilo i{
+  margin-right: 8px;
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 3px;
+  background-image: linear-gradient( to right, rgba(91, 36, 219, 0.952),#0606bc);
+}
+.pdy{
+  color:rgb(250, 57, 57);
+  font-size: 12px;
+}
+.moddi{
+  width: 45%;
+  height: 85px;
+  border: 2px solid rgb(250, 57, 57);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.moddi img{
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  width: 100%;
+  height: 100%;
+}
+.moddi:hover{
+  border: 7px solid rgb(94, 14, 119);
+}
+.moddi:hover img{
+  border-top-left-radius: 33px;
+  border-bottom-right-radius: 33px;
+}
+.inpou input{
+  width: 100%;
+  height: 50px;
+  border-radius: 15px;
+  border: 2px solid rgb(147, 15, 195);
+}
+.inpou input:focus{
+  box-shadow: none;
+  outline: none;
+  border: 5px solid rgb(51, 90, 244);
+}
+
+.inpou input::placeholder{
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btny7{
+  width: 140px;
+  height: 45px;
+  background-color: rgb(47, 47, 226);
+  border-radius: 25px;
+  border: none;
+  margin-right: 30px;
+}
+.btny7:hover{
+  background-color:rgb(94, 14, 119);
+  transition: all ease-in-out 0.5s;
+}
+.btny7{
+  font-size: 13px;
+}
+
+.btnyy{
+  width: 140px;
+  height: 45px;
+  background-color: #000059;
+  border-radius: 25px;
+  border: none;
+  margin-right: 30px;
+}
+.btnyy:hover{
+  background-color:rgb(119, 14, 14);
+  transition: all ease-in-out 0.5s;
+}
+.btnyy{
+  font-size: 13px;
+}
+
+.rowi{
+  border-bottom: 2px solid rgba(250, 57, 57, 0.208);
+}
+.cright p{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* ================= PANIER MODAL++++++++++++++++++ */
+
+.payo{
+  font-weight: bold;
+  font-size: 40px;
+  color: #4e0758;
+}
+.nomop{
+  border-bottom: 2px solid rgba(235, 7, 7, 0.267);
+}
+
+.miby{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby:focus{
+  outline: none;
+  border: 1px solid #f83f3f;
+  border-radius: 10px;
+}
+.miby::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+.ipko{
+  width: 60%;
+}
+.ecro p{
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #f83f3f;
+}
+.imapay{
+  width: 22%;
+  height: 100px;
+  border: 2px solid rgba(255, 0, 0, 0.549);
+  border-radius: 25px;
+}
+.imapay img{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
+.ipko2{
+  width: 86%;
+}
+
+.miby3{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby3:focus{
+  outline: none;
+  border: 1px solid #1e26c5;
+  border-radius: 10px;
+}
+.miby3::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+.ipko4{
+  width: 100%;
+}
+
+.miby4{
+  width: 100%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby4:focus{
+  outline: none;
+  border: 1px solid #f83f3f;
+  border-radius: 10px;
+}
+.miby4::placeholder{
+  font-weight: bold;
+  opacity: 0.7;
+}
+.btnys{
+  width: 100%;
+}
+.posti{
+  width: 100%;
+}
+.miby14{
+  width: 85%;
+  height: 50px;
+  border: 1px solid #70239cb6;
+  border-radius: 10px;
+  padding-left: 30px;
+}
+.miby14:focus{
+  outline: none;
+  border: 1px solid #0d0aae;
+  border-radius: 10px;
+}
+.miby14::placeholder{
+  font-weight: bold;
+} 
+
+
+/* ========================== foooter fin ================================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== MEDIA QUERIES ================================ */
+
+@media screen and (max-width:991px){
+  .imo img{
+    height: 300px;
+  }
+  .navbar-brand{
+    width: 25%;
+  }
+  .carouse .carousel-item{
+    height: 300px;
+  }
+}
+@media screen and (max-width:766px) {
+  .carouse .carousel-item{
+    height: 250px;
+  }
+  .imagerv .imm1{
+    width: 92%;
+    height: 500px;
+  }
+  .imagerv .imm2{
+    width: 87%;
+    height: 485px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .welcom h1{
+    font-size: 40px;
+  }
+  .welcom p{
+    font-size: 35px;
+  }
+  .btny1{
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width:575px){
+    .imo img{
+    height:auto;
+  }
+  .carouse .carousel-item{
+    height: 300px;
+  }
+  .maloyo{
+    display: none;
+  }
+  .etoile2{
+    flex-direction: column;
+  }
+  .price1, .price2, .price3{
+    flex-direction: column;
+  }
+}
+
+
+/*============= carous============= */
+
